@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 0;
+    background-color: #000000;
+}
+
+.nav-liens a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 50px;
+}
+
+.nav-liens {
+  display: flex;
+  list-style: none;
+}
+
+.nav-liens a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+    background-image: url('https://www.latelierponsar.be/wa_images/fresh-bread-table-homemade-bread2.jpg?v=1hnn62a');
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    font-family: Arial;
+}
+
+article img {
+    height: 550px;
+    margin-right: 50px;
+}
+
+article h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+article hr {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+article p {
+    max-width: 700px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.text-histoire {
+    max-width: 400px;
+}
